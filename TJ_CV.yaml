@@ -1,0 +1,72 @@
+cv:
+  name: Thomas TJ Dau
+  location: Henderson, KY, USA
+  email: thomasdaucd@gmail.com
+  phone: "+18124553625"
+  social_networks: 
+    - network: LinkedIn
+      username: thomasdau
+    - network: GitHub
+      username: padilin
+  
+  sections: 
+    education:
+      - institution: Vincennes University
+        area: Product Design and Engineering
+        degree: AAS
+        start_date: 2010-08
+        end_date: 2013-05
+        highlights: 
+          - Emphasis on hand drafting
+          - Pro/Engineer 3D CAD
+          - AutoCAD 2D CAD
+          - 3D Printing
+          - Introduction to machine shop practices
+    professional_experience:
+      - company: Sunspring America
+        position: Draftsmen
+        location: Henderson, KY, USA
+        start_date: 2013-05
+        end_date: 2015-01
+        highlights:
+          - 2D and 3D tooling design
+          - Worked in both AutoCAD and Pro/Engineer
+          - Worked with high pressure die casting
+          - Worked with main oversea manufacturing plant in Taiwan
+          - Worked with customers to develop new products
+          - Learned Coordinate Measuring Machine (CMM) operation
+          - Learned Gauge R&D
+          - Documented and maintained engineering changes
+      - company: Hendrick Screen Company
+        position: Draftsmen
+        location: Owensboro, KY, USA
+        start_date: 2015-02
+        end_date: 2022-10
+        highlights:
+          - Worked in both AutoCAD and Pro/Engineer
+          - Worked with stainless steel, aluminum, and Copper Nickel fabrication
+          - Industrial, Fish/Water, and Architectural design
+          - Worked with customers to fit their specific needs
+          - Worked with sales representatives to quickly develop quotes for customers
+          - Worked with shop floor to ensure designs were manufacturable
+          - Worked with all involved for issue resolution
+          - Developed and maintained company standards
+          - Largest project was the stainless steel wall panels for the new St. Louis Arch entrance
+          - Responsible for any templates supplied by the customer and converting to company standards
+design:
+  theme: moderncv
+  page:
+    size: us-letter
+    top_margin: "2cm"
+    bottom_margin: "2cm"
+    left_margin: "2cm"
+    right_margin: "2cm"
+    show_last_updated_date: true
+    show_page_numbering: false
+  text:
+    font_family: XCharter
+    font_size: "10pt"
+  links:
+    underline: false
+# locale:
+# rendercv_settings:

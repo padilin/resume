@@ -33,7 +33,12 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: RenderCV Output
-          path: rendercv_output
+          path: |
+            rendercv_output/*.pdf
+            rendercv_output/*.typ
+            rendercv_output/*.md
+            rendercv_output/*.png
+            rendercv_output/*.html
       - uses: dorny/paths-filter@v3
         id: changes
         with:

@@ -46,6 +46,9 @@ jobs:
         with:
           name: RenderCV Output
           path: rendercv_output
+      - name: Remove non-html files before deploy
+        run: |
+          find rendercv_output ! -name '*.html' -type f -delete
       - name: Deploy HTML to gh-pages
         uses: peaceiris/actions-gh-pages@v4
         with:

@@ -28,7 +28,6 @@ jobs:
             echo "No RenderCV file found!"
             exit 1
           fi
-          cd ..
           rendercv render $cv_file --pdf-path ${cv_file%.yaml}.pdf --markdown-path README.md --typst-path ${cv_file%.yaml}.typ
       - name: Upload rendercv_output as an artifact
         uses: actions/upload-artifact@v4
